@@ -1,21 +1,21 @@
-# ModuleScript in ROBLOX, TableExtension
+# TableExtension written by gilaga4815 and CreeperAlex309 .
 
-# gilaga4815 and CreeperAlex309 
+# Translated by itsdrawn / draaawn.
 
-# Module created with the help of many programming articles and devforum documentation with useful methods
+# Module created with the help of many programming articles and devforum documentation with useful methods.
 
-	This module serves as an extension for existing table functions to be able to clean up some functions that are reused
+# This module serves as an extension for existing table functions to be able to clean up some functions that are reused.
 
 
-parameters of the find method
-
- tab : you input the table with the index you are trying to find
- findVal : the value you are trying to find in the table 
- returnType : 
- One option for returntype is bool which will return a boolean true or false if its found in the table
- The 2nd option for returntype is to actually return the value in the table
-
- if you dont include a returntype parameter it will default to the boolean option
+# Find Method
+	Parameters of Find Method:
+	Tab: Input the table with the index you are searching for.
+	findVal : Index you are searching for in the table.
+	ReturnType:
+		Boolean - If its found in the table.
+		ReturnType (2nd) - Returns the value from the table.
+ 
+ Failing to include a ReturnType parameter will result to Boolean in your output.
  
 ————————————————————————————————
 
