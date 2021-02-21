@@ -8,33 +8,34 @@ This module serves as an extension for existing table functions to be able to cl
 
 Any function without credits assumes it was written by gilaga4815.
 
-
-## Find Method
-Parameters of Find Method:
-
-	Tab: Input the table with the index you are searching for.
-	findVal : Index you are searching for in the table.
-	ReturnType:
-		Boolean - If its found in the table.
-		ReturnType (2nd) - Returns the value from the table.
- 
- Failing to include a ReturnType parameter will result to Boolean in your output.
- 
 ---
 
-## dictionaryCompare
-Credits to the original idea: goldenstein64 on ROBLOX Devfourm.
+## Methods
 
-Parameters of dictionaryCompare:
-
-	dict1 - The dictionary you want to compare against t1.
-	dict2 - The dictionary you want to compare against t2.
-
-This method exists to check if any parameter in t2 is different than any parameter in t1.
+### tableModule.find
+```lua
+--- Finds an item in a table
+-- @param {table} tab the table
+-- @param {any} val the value to index by
+-- @return[1] {boolean} if found in table
+-- @return[2] {any} the value found in table
+tableModule.find = function(tab, val) end
+```
 
 ---
 
-## checkForNonExistentData
+### tableModule.dictionaryCompare
+```lua
+--- Runs a shallow comparison on a table (dictionary)
+-- @param {table} dict1 the first dictionary
+-- @param {table} dict2 the second dictionary
+-- @return[1] {boolean} if dictionaries are equal
+tableModule.dictionaryCompare = function(dict1, dict2) end
+```
+
+---
+
+### checkForNonExistentData
 Credits : CreeperAlex309
 
 Parameters of checkForNonExistentData: 
@@ -46,7 +47,7 @@ This method exists to add or remove indexes of checkDict that is not present in 
 
 ---
 
-## deepCopy
+### deepCopy
 Credits to the original idea: IgnisRBX @ ROBLOX Developer Relations.
 Parameters of the deepCopy method:
 
@@ -56,7 +57,7 @@ This method copies the current table passed. But, it also copies every key in th
 
 ---
 
-## shallowCopy
+### shallowCopy
 Credits to the original idea: IgnisRBX @ ROBLOX Developer Relations.
 Parameters of the deepCopy method:
 
@@ -66,7 +67,7 @@ This method copies the table passed. But, it does not copy embedded tables.
 
 ---
 
-## clear
+### clear
 
 Parameters of the clear method:
 
@@ -76,7 +77,7 @@ This method clears every index in its given table.
 
 ---
 
-## getPrecedence
+### getPrecedence
 
 Parameters of the getPrecedence method:
 
@@ -86,7 +87,7 @@ This method goes through the table and tells you the next index relative to its 
 
 ---
 
-## generateChunks
+### generateChunks
 Credits to the original idea: Ryan Farney @ dev.to
 
 Paremeters of the generateChunks method:
@@ -97,7 +98,7 @@ This method iterates through all elements inside the table, searching through al
 
 ---
 
-## stringifyTable
+### stringifyTable
 
 Parameters of the stringifyTable method:
 
@@ -105,7 +106,7 @@ Parameters of the stringifyTable method:
 	
 ---
 
-## reverse
+### reverse
 Credits to the original idea: sleitneck (crazyman32) @ ROBLOX Devfourm.
 
 Parameters of the reverse method:
