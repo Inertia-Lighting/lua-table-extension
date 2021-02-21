@@ -1,4 +1,4 @@
-# TableExtension written by gilaga4815 and CreeperAlex309 .
+# TableExtension written by gilaga4815 and CreeperAlex309.
 
 # Translated by itsdrawn / draaawn.
 
