@@ -91,7 +91,7 @@ Credits to the original idea: Ryan Farney @ dev.to
 
 Paremeters of the generateChunks method:
 
- 	Tab -  The table you want to generate chunks from.											
+ 	Tab -  The table you want to generate chunks from.
 
 This method iterates through all elements inside the table, searching through all of the elements and checking if there is any subtable or if the previous indice is at the users request. If so, a new table is added at the end of the specified table and if it is not the same size as the elements, more are added without adding a new subtable to it. 
 
