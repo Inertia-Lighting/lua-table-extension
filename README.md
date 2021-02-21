@@ -6,6 +6,8 @@
 
 # This module serves as an extension for existing table functions to be able to clean up some functions that are reused.
 
+# Any function without credits assumes it was written by gilaga4815.
+
 
 # Find Method
 Parameters of Find Method:
@@ -59,12 +61,13 @@ Parameters of the deepCopy method:
 This method copies the table passed. But, it does not copy embedded tables.
 
 ————————————————————————————————
+# clear
 
- Parameters of the clear method : (Credits : gilaga4815)
+Parameters of the clear method:
 
- tab is just the table you want to be cleared
+	Tab - The table you would like to clear.
 
- Basically this method just clears every index in the table pretty self explanatory
+This method clears every index in its given table.
 
 ————————————————————————————————
 
