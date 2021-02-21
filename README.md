@@ -20,8 +20,10 @@ Parameters of Find Method:
  
 ————————————————————————————————
 # dictionaryCompare
-	Credits to the original idea: goldenstein64 on ROBLOX Devfourm.
-	Parameters of dictionaryCompare
+Credits to the original idea: goldenstein64 on ROBLOX Devfourm.
+Parameters of dictionaryCompare
+
+	
 	
 	dict1 - The dictionary you want to compare against t1.
 	dict2 - The dictionary you want to compare against t2.
