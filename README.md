@@ -22,23 +22,23 @@ Parameters of Find Method:
 # dictionaryCompare
 Credits to the original idea: goldenstein64 on ROBLOX Devfourm.
 
-Parameters of dictionaryCompare
+Parameters of dictionaryCompare:
 
-	
-	
 	dict1 - The dictionary you want to compare against t1.
 	dict2 - The dictionary you want to compare against t2.
 
 This method exists to check if any parameter in t2 is different than any parameter in t1.
 
 ————————————————————————————————
+# checkForNonExistentData
+Credits to the original idea: CreeperAlex309
 
- parameters of the checkForNonExistentData method (Credits: CreeperAlex309) 
+Parameters of checkForNonExistentData: 
 
- returnDict : the dictionary you want to return with the added indexes
- checkDict : the dictionary you want to use as the check for returnDict
-
- Basically what the method does is it adds or removes indexes to checkDict that it doesn't have from baseDict,
+	returnDict - The dictionary you want to return with the added indexes.
+	checkDict - The dictionary you want to use as the check for returnDict.
+	
+This method exists to add or remove indexes of checkDict that is not present in baseDict.
 
 ————————————————————————————————
 
