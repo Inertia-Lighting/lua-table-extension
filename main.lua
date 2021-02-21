@@ -23,20 +23,6 @@ tableModule.dictionaryCompare = function(dict1, dict2)
 	return true 
 end
 
-tableModule.checkForNonExistentData = function(checkDict, returnDict)
-	for i,v in pairs(checkDict) do
-		if not returnDict[i] then
-			returnDict[i] = v
-		end
-	end
-	for i,v in pairs(returnDict) do
-		if not checkDict[i] then
-			returnDict[i] = nil
-		end
-	end
-	return returnDict
-end
-
 tableModule.deepCopy = function(tab) -- this function will generate and return a copy of a table for ease of use
 	if not tab or not typeof(tab) == 'table' then return end
 
