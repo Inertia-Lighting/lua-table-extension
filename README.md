@@ -1,8 +1,11 @@
 # TableExtension written by gilaga4815 and CreeperAlex309.
 
 Translated by itsdrawn / draaawn.
+
 Module created with the help of many programming articles and devforum documentation with useful methods.
+
 This module serves as an extension for existing table functions to be able to clean up some functions that are reused.
+
 Any function without credits assumes it was written by gilaga4815.
 
 
