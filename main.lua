@@ -92,10 +92,10 @@ tableModule.generateChunks = function(tab, chunkSize)
 
 	return chunkedTable
 end
- 
+
 tableModule.stringifyTable = function(tab)
 	local stringifiedTable = ""
-	
+
 	for i,v in pairs(tab) do
 		stringifiedTable = stringifiedTable .. "\n" .. tostring(v)
 	end
@@ -104,11 +104,11 @@ end
 
 tableModule.reverse = function(tab)
 	local copiedTable = tableModule.shallowCopy(tab)
-	
+
 	for i = 1, #copiedTable do
 		copiedTable[i] = tab[#tab - (i - 1)]
 	end
-	
+
 	return copiedTable
 end
 
