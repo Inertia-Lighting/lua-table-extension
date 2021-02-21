@@ -17,7 +17,7 @@ parameters of the find method
 
  if you dont include a returntype parameter it will default to the boolean option
  
-————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+———————————————————————————————————————————————————————————————————————————————————
 
  parameters of the dictionaryCompare method (Found on the Developer Forums (Credits : goldenstein64)) 
 
