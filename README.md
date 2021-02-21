@@ -50,12 +50,13 @@ Parameters of the deepCopy method:
 This method copies the current table passed. But, it also copies every key in the table for embedded tables.
 
 ————————————————————————————————
+# shallowCopy
+Credits to the original idea: IgnisRBX @ ROBLOX Developer Relations.
+Parameters of the deepCopy method:
 
- Parameters of the shallowCopy method : (Found on developer website (Credits : IgnisRBX @ DevRel))
-
- tab is just the table you want shallowcopied
-
- Basically this method just does is it copies the table, however it may not copy embedded tables 
+	Tab - The table you would like to be shallowcopied.
+	
+This method copies the table passed. But, it does not copy embedded tables.
 
 ————————————————————————————————
 
