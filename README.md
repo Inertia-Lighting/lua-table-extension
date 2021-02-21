@@ -19,13 +19,14 @@ Parameters of Find Method:
  Failing to include a ReturnType parameter will result to Boolean in your output.
  
 ————————————————————————————————
+# dictionaryCompare
+	Credits to the original idea: goldenstein64 on ROBLOX Devfourm.
+	Parameters of dictionaryCompare
+	
+	dict1 - The dictionary you want to compare against t1.
+	dict2 - The dictionary you want to compare against t2.
 
- parameters of the dictionaryCompare method (Found on the Developer Forums (Credits : goldenstein64)) 
-
- dict1 : the dictionary you want to compare against t1
- dict2 : the dictionary you want to compare against t2
-
- Basically what the method does is it checks if any parameter in t2 is different than any parameter in t1
+This method exists to check if any parameter in t2 is different than any parameter in t1.
 
 ————————————————————————————————
 
