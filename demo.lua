@@ -1,5 +1,3 @@
--- Example written by github.com/itsdrawn
-
 local Extension = require(script.Parent.TableExtension)
 local Demo = {}
 
