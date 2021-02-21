@@ -41,12 +41,13 @@ Parameters of checkForNonExistentData:
 This method exists to add or remove indexes of checkDict that is not present in baseDict.
 
 ————————————————————————————————
+# deepCopy
+Credits to the original idea: IgnisRBX @ ROBLOX Developer Relations.
+Parameters of the deepCopy method:
 
- Parameters of the deepCopy method : (Found on developer website (Credits : IgnisRBX @ DevRel))
-
- tab is just the table you want deepcopied 
-
- Basically this method just does is copies the table but it also copies every key in the table for embedded tables and whatnot
+	Tab - The table you would like to be deepcopied.
+	
+This method copies the current table passed. But, it also copies every key in the table for embedded tables.
 
 ————————————————————————————————
 
