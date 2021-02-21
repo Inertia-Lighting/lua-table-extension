@@ -33,7 +33,7 @@ This method exists to check if any parameter in t2 is different than any paramet
 
 ————————————————————————————————
 # checkForNonExistentData
-Credits to the original idea: CreeperAlex309
+Credits : CreeperAlex309
 
 Parameters of checkForNonExistentData: 
 
@@ -70,43 +70,41 @@ Parameters of the clear method:
 This method clears every index in its given table.
 
 ————————————————————————————————
+# getPrecedence
 
- Parameters of the getPrecedence method : (Credits : gilaga4815)
+Parameters of the getPrecedence method:
 
- tab is just the table you want to get the next index of
-
- Basically this method just goes through the table and tells you the next index, if that index is at the end of the table than it 
- just returns back to the 1st index
-
-————————————————————————————————
-
- Parameters of the generateChunks method : (Credits : Ryan Farney @ dev.to)
-
- Tab is just the table you want to create chunks from
-
- Basically this method iterates / steps through all of the elements in the table 
- as it steps through all of the elements in the table it checks if there is no subtable in the chunked table or that the length
- of the table at the last indice is the same as the size of the chunks a user wants
- if so than a new table is added to the end and if it's not the same size as elements are added than elements are just added to it
- without adding a new subtable to the chunked table
+	Tab -  The table you would like to request the next index from.
+	
+This method goes through the table and tells you the next index relative to its current position. If its current index is at the end of the table, it will return the first index in the table.
 
 ————————————————————————————————
+# generateChunks
+Credits to the original idea: Ryan Farney @ dev.to
 
- Parameters of the stringifyTable method : (Credits : gilaga4815)
+Paremeters of the generateChunks method:
 
- Tab is just the table of the elements you want to format into a string
+ 	Tab -  The table you want to generate chunks from.											
 
- Basically this method outputs a stringified version of all of the elements in the table in order, descending
+This method iterates through all elements inside the table, searching through all of the elements and checking if there is any subtable or if the previous indice is at the users request. If so, a new table is added at the end of the specified table and if it is not the same size as the elements, more are added without adding a new subtable to it. 
 
 ————————————————————————————————
+# stringifyTable
 
- Parameters of the stringifyTable method : (Algorithim Idea Credits : sleitneck (aka crazyman32, Sleitneck on ROBLOX Devfourm)
+Parameters of the stringifyTable method:
 
- Tab is just the table in which you want reversed
+ 	Tab - the table of the elements you want to mutate into a string.
+	
+————————————————————————————————
+# reverse
+Credits to the original idea: sleitneck (crazyman32) @ ROBLOX Devfourm.
 
- Basically, this method reverses the elements in a table, so the ones at the end of the table will not be at the front of the table
- and the elements at the front of the table are now at the end of the table.
+Parameters of the reverse method:
 
- Warning : It returns a shallowcopy and doesn't actually update the table you are inputting it, just returns a shallowcopy.
+	Tab - The table you specify, but in reverse order.
+
+This method reverses the elements in a table, putting the first index at the last & vise versa.
+
+Warning: This returns a shallowcopy and doesn't actually update the table you are inputting.
 
 ————————————————————————————————
