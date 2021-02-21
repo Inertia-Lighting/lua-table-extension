@@ -8,7 +8,7 @@
 
 
 # Find Method
-	Parameters of Find Method:
+Parameters of Find Method:
 	Tab: Input the table with the index you are searching for.
 	findVal : Index you are searching for in the table.
 	ReturnType:
