@@ -26,7 +26,7 @@ parameters of the find method
 
  Basically what the method does is it checks if any parameter in t2 is different than any parameter in t1
 
-————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+————————————————————————————————
 
  parameters of the checkForNonExistentData method (Credits: CreeperAlex309) 
 
@@ -35,7 +35,7 @@ parameters of the find method
 
  Basically what the method does is it adds or removes indexes to checkDict that it doesn't have from baseDict,
 
-————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+————————————————————————————————
 
  Parameters of the deepCopy method : (Found on developer website (Credits : IgnisRBX @ DevRel))
 
@@ -43,7 +43,7 @@ parameters of the find method
 
  Basically this method just does is copies the table but it also copies every key in the table for embedded tables and whatnot
 
-————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+————————————————————————————————
 
  Parameters of the shallowCopy method : (Found on developer website (Credits : IgnisRBX @ DevRel))
 
@@ -51,7 +51,7 @@ parameters of the find method
 
  Basically this method just does is it copies the table, however it may not copy embedded tables 
 
-————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+————————————————————————————————
 
  Parameters of the clear method : (Credits : gilaga4815)
 
@@ -59,7 +59,7 @@ parameters of the find method
 
  Basically this method just clears every index in the table pretty self explanatory
 
-————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+————————————————————————————————
 
  Parameters of the getPrecedence method : (Credits : gilaga4815)
 
@@ -68,7 +68,7 @@ parameters of the find method
  Basically this method just goes through the table and tells you the next index, if that index is at the end of the table than it 
  just returns back to the 1st index
 
-————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+————————————————————————————————
 
  Parameters of the generateChunks method : (Credits : Ryan Farney @ dev.to)
 
@@ -80,7 +80,7 @@ parameters of the find method
  if so than a new table is added to the end and if it's not the same size as elements are added than elements are just added to it
  without adding a new subtable to the chunked table
 
-————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+————————————————————————————————
 
  Parameters of the stringifyTable method : (Credits : gilaga4815)
 
@@ -88,7 +88,7 @@ parameters of the find method
 
  Basically this method outputs a stringified version of all of the elements in the table in order, descending
 
-————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+————————————————————————————————
 
  Parameters of the stringifyTable method : (Algorithim Idea Credits : sleitneck (aka crazyman32, Sleitneck on ROBLOX Devfourm)
 
@@ -99,4 +99,4 @@ parameters of the find method
 
  Warning : It returns a shallowcopy and doesn't actually update the table you are inputting it, just returns a shallowcopy.
 
-------------------------------------------------------------------------------------------------------------------------------------------
+————————————————————————————————
