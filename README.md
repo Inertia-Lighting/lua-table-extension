@@ -9,7 +9,7 @@ This module serves as an extension for existing table functions to be able to cl
 Any function without credits assumes it was written by gilaga4815.
 
 
-# Find Method
+## Find Method
 Parameters of Find Method:
 
 	Tab: Input the table with the index you are searching for.
@@ -20,8 +20,9 @@ Parameters of Find Method:
  
  Failing to include a ReturnType parameter will result to Boolean in your output.
  
-————————————————————————————————
-# dictionaryCompare
+---
+
+## dictionaryCompare
 Credits to the original idea: goldenstein64 on ROBLOX Devfourm.
 
 Parameters of dictionaryCompare:
@@ -31,8 +32,9 @@ Parameters of dictionaryCompare:
 
 This method exists to check if any parameter in t2 is different than any parameter in t1.
 
-————————————————————————————————
-# checkForNonExistentData
+---
+
+## checkForNonExistentData
 Credits : CreeperAlex309
 
 Parameters of checkForNonExistentData: 
@@ -42,8 +44,9 @@ Parameters of checkForNonExistentData:
 	
 This method exists to add or remove indexes of checkDict that is not present in baseDict.
 
-————————————————————————————————
-# deepCopy
+---
+
+## deepCopy
 Credits to the original idea: IgnisRBX @ ROBLOX Developer Relations.
 Parameters of the deepCopy method:
 
@@ -51,8 +54,9 @@ Parameters of the deepCopy method:
 	
 This method copies the current table passed. But, it also copies every key in the table for embedded tables.
 
-————————————————————————————————
-# shallowCopy
+---
+
+## shallowCopy
 Credits to the original idea: IgnisRBX @ ROBLOX Developer Relations.
 Parameters of the deepCopy method:
 
@@ -60,8 +64,9 @@ Parameters of the deepCopy method:
 	
 This method copies the table passed. But, it does not copy embedded tables.
 
-————————————————————————————————
-# clear
+---
+
+## clear
 
 Parameters of the clear method:
 
@@ -69,8 +74,9 @@ Parameters of the clear method:
 
 This method clears every index in its given table.
 
-————————————————————————————————
-# getPrecedence
+---
+
+## getPrecedence
 
 Parameters of the getPrecedence method:
 
@@ -78,8 +84,9 @@ Parameters of the getPrecedence method:
 	
 This method goes through the table and tells you the next index relative to its current position. If its current index is at the end of the table, it will return the first index in the table.
 
-————————————————————————————————
-# generateChunks
+---
+
+## generateChunks
 Credits to the original idea: Ryan Farney @ dev.to
 
 Paremeters of the generateChunks method:
@@ -88,15 +95,17 @@ Paremeters of the generateChunks method:
 
 This method iterates through all elements inside the table, searching through all of the elements and checking if there is any subtable or if the previous indice is at the users request. If so, a new table is added at the end of the specified table and if it is not the same size as the elements, more are added without adding a new subtable to it. 
 
-————————————————————————————————
-# stringifyTable
+---
+
+## stringifyTable
 
 Parameters of the stringifyTable method:
 
  	Tab - the table of the elements you want to mutate into a string.
 	
-————————————————————————————————
-# reverse
+---
+
+## reverse
 Credits to the original idea: sleitneck (crazyman32) @ ROBLOX Devfourm.
 
 Parameters of the reverse method:
@@ -107,4 +116,4 @@ This method reverses the elements in a table, putting the first index at the las
 
 Warning: This returns a shallowcopy and doesn't actually update the table you are inputting.
 
-————————————————————————————————
+---
